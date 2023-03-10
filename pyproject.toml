@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-module-07"
+version = "0.1.0"
+description = ""
+authors = ["VictoriiaCher <cherevchenko.victoriy@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_module_07"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.5.post1"
+faker = "^17.6.0"
+psycopg2 = "^2.9.5"
+alembic = "^1.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

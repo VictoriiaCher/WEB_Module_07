@@ -7,7 +7,7 @@ from src.CRUD import delete_student, delete_group, delete_teacher, delete_discip
 
 parser = argparse.ArgumentParser(description='CLI CreateReadUpdateDelete')
 
-parser.add_argument('-a', '--action', help='Command: create, show, update, remove', required=True)
+parser.add_argument('-a', '--action', help='Command: create, show, update, delete', required=True)
 parser.add_argument('-m', '--model', help='Student, Teacher, Group, Discipline, Grade', required=True)
 parser.add_argument('-n', '--name', help='Name of model"s object')
 parser.add_argument('-fn', '--fullname', help='Name of model"s object')
